@@ -1,11 +1,19 @@
-import styles from './BtnRegister.module.css'
+import styles from "./BtnRegister.module.css";
+
+import { useNavigate } from "react-router-dom";
 
 const BtnRegister = () => {
-    return(
-        <>
-        <button className={styles.register}>Regístrate</button>
-        </>
-    )
-}
+    const navigate = useNavigate();
+
+    const handleGoPublication = () => {
+        navigate('/AllPublications');    
+    };
+
+  return (
+    <>
+      <button className={styles.register} onClick={handleGoPublication}>Entrar</button>
+    </>
+  );
+};
 
 export default BtnRegister;

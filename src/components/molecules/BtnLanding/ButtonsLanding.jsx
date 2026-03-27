@@ -7,7 +7,7 @@ const ButtonsLanding = () => {
     return (
         <>
         <div className={styles.buttonGroup}>
-            <BtnLogin/>
+            {/* <BtnLogin/> */}
             <BtnRegister/>
         </div>
         </>

@@ -7,7 +7,6 @@ const LandingPage = () => {
         <>
             <SectionLogo />
             <SectionPillars />
-            <Footer />
         </>
     )
 }

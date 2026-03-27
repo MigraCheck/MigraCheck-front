@@ -1,9 +1,9 @@
 import styles from './BtnLogin.module.css'
 
-const BtnLogin = () => {
+const BtnLogin = ({text}) => {
     return(
         <>
-        <button className={styles.login}>Iniciar sesión</button>
+        <button className={styles.login}>{text}</button>
         </>
     )
 }
