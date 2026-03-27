@@ -1,0 +1,9 @@
+.login {
+  padding: 10px 25px;
+  border: 2px solid #ea7b00;
+  background: white;
+  color: #ea7b00;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
